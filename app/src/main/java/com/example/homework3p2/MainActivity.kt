@@ -65,10 +65,10 @@ class MainActivity : AppCompatActivity() {
         this.etAge?.addTextChangedListener(textWatcher)
 
         bBTN1?.setOnClickListener {
-            textView2.text = "Name: ${etName?.text}"
-            textView3.text = "Surname: ${etSurname?.text}"
-            textView5.text = "Phone: ${etPhone?.text}"
-            textView8.text = "Age: ${etAge?.text}"
+            textView2.text = "${etName?.text}"
+            textView3.text = "${etSurname?.text}"
+            textView5.text = "${etPhone?.text}"
+            textView8.text = "${etAge?.text}"
             bBTN2?.isEnabled = true
             it.hideKeyboard() //Бесит клавиатура - из-за нее не видно таблицы
         }
