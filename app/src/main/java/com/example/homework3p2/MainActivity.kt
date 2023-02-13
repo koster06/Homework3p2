@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
             bBTN1?.setEnabled(!nameFilled.isEmpty() && !surnameFilled.isEmpty() && !phoneFilled.isEmpty() && !ageFilled.isEmpty())
 
             // не внимательно прочитал условие, думал нужно показать кнопку_№2 как активную для удаления строк из EditText полей
-            
+
             //bBTN2?.setEnabled(!nameFilled.isEmpty() || !surnameFilled.isEmpty() || !phoneFilled.isEmpty() || !ageFilled.isEmpty())
 
         }
