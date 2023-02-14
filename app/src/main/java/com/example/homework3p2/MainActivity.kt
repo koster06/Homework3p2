@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
             bBTN2?.isEnabled = true
             it.hideKeyboard() //Бесит клавиатура - из-за нее не видно таблицы
         }
-
+// commit
         bBTN2?.setOnClickListener {
             textView2.text = ""
             textView3.text = ""
